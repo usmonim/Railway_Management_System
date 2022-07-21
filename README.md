@@ -3,9 +3,11 @@ In this project which i finished 2 years ago during the fall semester in univers
 
 My aim was to design a Railway Management System. This system contains Stops, Routes, Trains and Schedules. Each of these components have unique value, purpose, dependencies and description:
 1) Stops:
+ 
 a) Each stop must have a unique name
 
 2) Routes
+
 a) Each route must have a unique name
 
 b) Each route can contain arbitrary amounts of stops
