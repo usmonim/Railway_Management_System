@@ -7,14 +7,19 @@ a) Each stop must have a unique name
 
 2) Routes
 a) Each route must have a unique name
+
 b) Each route can contain arbitrary amounts of stops
+
 c) The order of the stops is not important
 
 3) Trains
+
 a) Each train must have a unique name
 
 4) Schedules
+
 a) Schedules must contain a route, a main train and time. Ex: (Route: DT2, Train: Barbaros Train, Time: 13:30)
+
 b) Schedules can also have an arbitrary amount of backup trains if something happens to the main train
 
 Important Prerequisites: Docker ( https://www.docker.com/get-started ) and JDK 14 is needed for this project.
