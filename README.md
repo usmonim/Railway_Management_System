@@ -24,6 +24,8 @@ a) Schedules must contain a route, a main train and time. Ex: (Route: DT2, Train
 
 b) Schedules can also have an arbitrary amount of backup trains if something happens to the main train
 
+
+
 Important Prerequisites: Docker ( https://www.docker.com/get-started ) and JDK 14 is needed for this project.
 
 Here is a list of API endpoints that i implemented: 
