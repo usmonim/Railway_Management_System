@@ -1,6 +1,22 @@
 # Railway_Management_System
 In this project which i finished 2 years ago during the fall semester in university for Database class, i implemented the entities and endpoints for a server back-end Java application initialized with the Spring framework.
 
+My aim was to design a Railway Management System. This system contains Stops, Routes, Trains and Schedules. Each of these components have unique value, purpose, dependencies and description:
+1) Stops:
+a) Each stop must have a unique name
+
+2) Routes
+a) Each route must have a unique name
+b) Each route can contain arbitrary amounts of stops
+c) The order of the stops is not important
+
+3) Trains
+a) Each train must have a unique name
+
+4) Schedules
+a) Schedules must contain a route, a main train and time. Ex: (Route: DT2, Train: Barbaros Train, Time: 13:30)
+b) Schedules can also have an arbitrary amount of backup trains if something happens to the main train
+
 Important Prerequisites: Docker ( https://www.docker.com/get-started ) and JDK 14 is needed for this project.
 
 Here is a list of API endpoints that i implemented: 
